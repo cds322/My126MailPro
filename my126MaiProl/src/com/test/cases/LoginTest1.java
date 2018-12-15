@@ -11,6 +11,8 @@ public class LoginTest1 {
   public void setUp() throws Exception{
 
     System.out.println("BeforeMethod1 is running.....");
+    System.out.println("BeforeMethod1 is running.....");
+    System.out.println("BeforeMethod1 is running.....");
   }
   
   @Test
