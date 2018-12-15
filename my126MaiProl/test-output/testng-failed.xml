@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]">
+  <parameter name="test1" value="英雄"/>
+  <test name="test1(failed)">
+    <classes>
+      <class name="com.test.cases.testBaidu2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCase"/>
+        </methods>
+      </class> <!-- com.test.cases.testBaidu2 -->
+    </classes>
+  </test> <!-- test1(failed) -->
+  <test name="Test2(failed)">
+    <classes>
+      <class name="com.test.cases.testBaidu2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCase"/>
+        </methods>
+      </class> <!-- com.test.cases.testBaidu2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

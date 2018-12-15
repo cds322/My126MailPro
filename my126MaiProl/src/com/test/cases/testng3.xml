@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<parameter name ="test1" value ="英雄"></parameter>
+  <test name = "test1">
+	  <packages>
+	  	<package name = "com.test.cases"></package>
+	  </packages>
+  </test>
+  
+  <test name="Test2">
+    <classes>
+      <class name="com.test.cases.testBaidu2"/>
+    </classes>
+  </test> <!-- Test -->  
+  
+</suite> <!-- Suite -->
+
